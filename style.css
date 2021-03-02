@@ -89,6 +89,8 @@ body {
 .info__content {
 	margin-top: 30px;
 	margin-bottom: 28px;
+	padding-left: 17px;
+	padding-right: 17px;
 	display: flex;
 	justify-content: center;
 	gap: 6px;
