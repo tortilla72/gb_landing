@@ -37,6 +37,10 @@ body {
 	background-position: center;
 	margin-bottom: 67px;
 }
+.top__svg {
+	width: 42px;
+	height: 22px;
+}
 .top__arrow {
 	margin-top: 40px;
 }
@@ -45,8 +49,8 @@ body {
 	justify-content: center;	
 }
 .top__text-margin{
-	width: 70%;
-	margin: auto;
+	margin-left: 59px;
+	margin-right: 59px;
 }
 .bluetooth {
 	background-color: #EDEDED;
@@ -89,8 +93,6 @@ body {
 .info__content {
 	margin-top: 30px;
 	margin-bottom: 28px;
-	padding-left: 17px;
-	padding-right: 17px;
 	display: flex;
 	justify-content: center;
 	gap: 6px;
@@ -99,6 +101,8 @@ body {
 	border: 1px solid #2F3132;
 	flex-basis: 166px;
 	min-height: 94px;
+	padding-left: 18px;
+	padding-right: 18px;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -158,4 +162,182 @@ body {
 	color: #FFFFFF;
 	margin-left: 5px;
 	margin-right: 11px;
+}
+.ergonomics {
+	padding-top: 70px;
+	padding-bottom: 70px;
+}
+.ergonomics__text {
+	padding-bottom: 20px;
+}
+.ergonomics__img {
+	background-image: url("img/image 1.png");
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+	height: 310px;	
+}
+.mouse__text {
+	padding-bottom: 20px;
+}
+.mouse__img {
+	background-image: url("img/image 2.png");
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+	height: 310px;
+}
+.footer{
+	background: #2F3132;
+	height: 75px;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 7px;
+	line-height: 8px;
+	text-align: center;
+	color: #C7C8C8;
+	padding-top: 22px;
+}
+@media (min-width: 768px){
+	.top {
+    padding-top: 54px;
+    padding-bottom: 80px;
+	}
+	.header__logo {
+		width: 240px;
+	}
+	.top__img {
+		margin-top: 160px;
+    height: 514px;
+		margin-bottom: 124px;
+	}
+	.heading {
+		font-size: 40px;
+    line-height: 47px;
+		margin-bottom: 30px;
+	}
+	.text {
+		font-size: 24px;
+    line-height: 28px;
+	}
+	.top__text-margin{
+		margin-left: 154px;
+		margin-right: 155px;
+	}
+	.top__svg {
+		width: 61px;
+		height: 33px;
+	}
+	.top__arrow {
+    margin-top: 76px;
+	}	
+	.bluetooth{
+		padding-top: 80px;
+    padding-bottom: 0;
+	}
+	.bluetooth__icon {
+    margin-bottom: 39px;
+	}
+	.text-margin {
+    margin-left: 77px;
+    margin-right: 77px;
+	}
+	.bluetooth__heading {
+		font-size: 150px;
+    line-height: 176px;
+		margin-top: 76px;
+	}
+	.bluetooth__img {
+    height: 597px;
+		margin-left: 39px;
+		margin-right: 19px;
+	}
+	.info {
+		padding-bottom: 61px;
+	}
+	.info__text {
+    margin-left: 77px;
+    margin-right: 77px;
+	}
+	.info__content {
+    margin-top: 50px;
+    margin-bottom: 50px;
+		gap: 30px;
+	}
+	.info__item {
+		flex-basis: 300px;
+		min-height: 170px;
+	}
+	.info__item-heading {
+		margin-bottom: 5px;
+	}
+	.info__heading {
+		font-size: 24px;
+    line-height: 28px;
+	}
+	.flow {
+		padding-left: 64px;
+		padding-right: 65px;
+		padding-bottom: 498px;
+	}
+	.flow-text-p {
+		margin-left: 0;
+		margin-right: 0;
+	}
+	.flow__ol {
+		display: flex;
+		list-style-position: inside;
+		padding-left: 0;
+	}
+	.flow-text {
+		width: auto;
+		padding: 8px 21px 4px 28px;
+		border-left: 1px solid #494949;
+		font-size: 20px;
+    line-height: 23px;
+	}
+	.flow-text:first-child {
+		border-left: none;
+		padding-left: 0;
+	}
+	.flow-text:last-child {
+		padding-right: 0;
+	}
+	.settings {
+		padding-bottom: 70px;
+	}
+	.settings__slider {
+    margin: 54px 198px 150px;
+	}
+	.settings__content  {
+		margin-left: 64px;
+		margin-right: 65px;
+	}
+	.settings__heading {
+		padding-left: 215px;
+		padding-right: 215px;
+	}
+	.settings__text-p {
+		padding-left: 64px;
+		padding-right: 65px;		
+	}
+	.settings__icons {
+		margin-right: 104px;
+		margin-left: 98px;
+	}
+	.settings__img {
+		height: 35px;
+	}
+	.text-settings {
+		font-size: 20px;
+		line-height: 23px;
+	}
+	.text-mouse {
+		margin-left: 67px;
+		margin-right: 65px;
+	}
+	.ergonomics__text {
+		padding-left: 67px;
+		padiing-right: 65px;
+	}
 }
