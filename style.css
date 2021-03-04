@@ -83,12 +83,8 @@ body {
 	padding-bottom: 63px;
 }
 .info__heading{
-	font-style: normal;
-	font-weight: 900;
 	font-size: 14px;
 	line-height: 16px;
-	text-align: center;
-	color: #2F3132;
 }
 .info__content {
 	margin-top: 30px;
@@ -122,7 +118,60 @@ body {
 	margin-right: 61px;
 }
 .carousel {
-	margin-bottom: 100px;
+	margin-bottom: 20px;
+}
+.carousel-inner {
+	margin-bottom: 28px;
+}
+.carousel-indicators {
+	position: relative;
+	justify-content: space-around;
+	margin-left: 17px;
+	margin-right: 16px;
+}
+.carousel-control-next, .carousel-control-prev {
+	position: relative;
+}
+.carousel-control-next:hover, .carousel-control-prev:hover {
+	opacity: 1;
+}
+.carousel-control-prev-icon {
+    background-image: url(img/arrow-left.svg);
+	background-size: 13px;
+	background-position-x: right;
+}
+.carousel-control-next-icon {
+    background-image: url(img/arrow-right.svg);
+	background-size: 13px;
+	background-position-x: left;
+}
+.carousel-indicators [data-bs-target] {
+	width: 30px;
+    height: 30px;
+	border-top: none;
+	border-bottom: none;
+	background-size: contain;
+	margin-right:0;
+	margin-left: 0;
+}
+.info__btn1 {
+	background-image: url(img/wood-texture.png);
+} 
+.info__btn2 {
+	background-image: url(img/glass-texture.png);
+} 
+.info__btn3 {
+	background-image: url(img/linoleum-texture.png);
+} 
+.info__btn4 {
+	background-image: url(img/cloth-texture.png);
+} 
+.info__btn5 {
+	background-image: url(img/marble-texture.png);
+} 
+.info__carousel-btn {
+	background-repeat: no-repeat;
+	background-position: center;
 }
 .flow {
 	padding-top: 70px;
